@@ -1,0 +1,11 @@
+To run the program
+1) Save the project to a location.
+2) Open command prompt and compile the code. 
+3) To compile the code in the server package use -
+	C:\Workspaces\CCNHttpClient\ORG\HttpServer\src>javac server/*.java
+4) Start the server and enter the port
+	C:\Workspaces\CCNHttpClient\ORG\HttpServer\src>java server.HttpServer 8080
+5) Start the client by firing a GET or PUT method using below commands
+C:\Workspaces\CCNHttpClient\ORG\HttpServer\src>java server.MyClient localhost 8080 GET index.html
+C:\Workspaces\CCNHttpClient\ORG\HttpServer\src>java server.MyClient localhost 8080 PUT input1.txt
+C:\Workspaces\CCNHttpClient\ORG\HttpServer\src>java server.MyClient localhost 8080 PUT image1.img
